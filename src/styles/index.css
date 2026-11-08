@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  scroll-behavior: smooth;
-}
+ :root {
+     scroll-behavior: smooth;
+     color-scheme: only light;
+   }
 
 @media (prefers-reduced-motion: reduce) {
   :root {
